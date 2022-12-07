@@ -5,6 +5,6 @@ EXPOSE 9000
 
 LABEL org.opencontainers.image.authors="Nikhil TK"
 
-COPY target\Jenkinsdemo-0.0.1-SNAPSHOT.jar Jenkinsdemo-0.0.1-SNAPSHOT.jar
+COPY target\jenkinsDemo.jar jenkinsDemo.jar
 
-ENTRYPOINT ["java","-jar","/Jenkinsdemo-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/jenkinsDemo.jar"]
